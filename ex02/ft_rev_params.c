@@ -6,11 +6,11 @@
 /*   By: lomauric <lomauric@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/27 18:45:51 by lomauric          #+#    #+#             */
-/*   Updated: 2022/09/27 22:50:13 by lomauric         ###   ########.fr       */
+/*   Updated: 2022/09/28 17:59:11 by lomauric         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <strdio.h>
+#include <unistd.h>
 
 void	ft_putchar(char c)
 {
@@ -31,7 +31,7 @@ int	main(int argc, char **argv)
 			ft_putchar(argv[r][p]);
 			p++;
 		}
-		ft_putchar('\n')
+		ft_putchar('\n');
 		r--;
 	}
 	return (0);

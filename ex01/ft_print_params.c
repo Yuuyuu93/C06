@@ -6,11 +6,11 @@
 /*   By: lomauric <lomauric@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/27 18:45:48 by lomauric          #+#    #+#             */
-/*   Updated: 2022/09/27 22:41:48 by lomauric         ###   ########.fr       */
+/*   Updated: 2022/09/28 14:25:55 by lomauric         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <strdio.h>
+#include <unistd.h>
 
 void	ft_putchar(char c)
 {
